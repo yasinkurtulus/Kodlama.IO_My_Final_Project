@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MyFinalProject",
+    "\\MyFinalProject\\Business",
+    "\\MyFinalProject\\Business\\Abstract",
+    "\\MyFinalProject\\ConsoleUI",
+    "\\MyFinalProject\\ConsoleUI\\bin",
+    "\\MyFinalProject\\ConsoleUI\\bin\\Debug",
+    "\\MyFinalProject\\DataAccess"
+  ],
+  "SelectedNode": "\\MyFinalProject\\Business\\Abstract\\IProductService.cs",
+  "PreviewInSolutionExplorer": false
+}

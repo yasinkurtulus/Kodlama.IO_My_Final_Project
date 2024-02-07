@@ -1,0 +1,15 @@
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\bin\Debug\net8.0\Entities.deps.json
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\bin\Debug\net8.0\Entities.dll
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\bin\Debug\net8.0\Entities.pdb
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\obj\Debug\net8.0\Entities.dll
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\obj\Debug\net8.0\refint\Entities.dll
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\obj\Debug\net8.0\Entities.pdb
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\obj\Debug\net8.0\ref\Entities.dll
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\bin\Debug\net8.0\Core.dll
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\bin\Debug\net8.0\Core.pdb
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\obj\Debug\net8.0\Entities.csproj.CopyComplete
