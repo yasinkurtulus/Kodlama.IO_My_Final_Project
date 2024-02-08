@@ -13,3 +13,4 @@ D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\bin\Debug\net8.0\C
 D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\bin\Debug\net8.0\Core.pdb
 D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
 D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\obj\Debug\net8.0\Entities.csproj.CopyComplete
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Entities\obj\Debug\net8.0\Entities.sourcelink.json

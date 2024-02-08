@@ -17,3 +17,4 @@ D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Business\obj\Debug\net8.0\B
 D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Business\obj\Debug\net8.0\ref\Business.dll
 D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Business\bin\Debug\net8.0\Core.dll
 D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Business\bin\Debug\net8.0\Core.pdb
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\Business\obj\Debug\net8.0\Business.sourcelink.json

@@ -69,3 +69,4 @@ D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\ConsoleUI\obj\Debug\net8.0\
 D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\ConsoleUI\obj\Debug\net8.0\ref\ConsoleUI.dll
 D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\ConsoleUI\bin\Debug\net8.0\Core.dll
 D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\ConsoleUI\bin\Debug\net8.0\Core.pdb
+D:\Github\Kodlama.IO_My_Final_Project\MyFinalProject\ConsoleUI\obj\Debug\net8.0\ConsoleUI.sourcelink.json

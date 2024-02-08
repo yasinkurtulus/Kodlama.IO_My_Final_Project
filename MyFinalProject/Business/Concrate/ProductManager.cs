@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using DataAccess.Abstract;
 using Entities.Concrate;
+using Entities.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,6 +38,9 @@ namespace Business.Concrate
             return _productDal.GetAll().Where(p => p.UnitPrice > min && p.UnitPrice < max).ToList();
         }
 
-
+        public List<ProductDetailsDto> GetProductDetailsDtos()
+        {
+            return _productDal.GetByDetails();
+        }
     }
 }
