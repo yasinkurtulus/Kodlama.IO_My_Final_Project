@@ -1,4 +1,5 @@
 ﻿using Business.Concrate;
+using Business.Constant;
 using DataAccess.Concrate.EntityFrameWork;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace ConsoleUI
         {
             ProductTest();
            // CategoryTest();
+           
 
         }
 
@@ -28,11 +30,21 @@ namespace ConsoleUI
 
         private static void ProductTest()
         {
+
             ProductManager productManager2 = new ProductManager(new EfProductDal());
-            foreach (var product in productManager2.GetProductDetailsDtos())
+            var result = productManager2.GetProductDetailsDtos().Succes;
+             if (result==false)
             {
-                Console.WriteLine(product.ProductName + " / " + product.CategoryName);
+                Console.WriteLine(productManager2.GetProductDetailsDtos().Message);
             }
+            else
+            {
+                foreach (var product in productManager2.GetProductDetailsDtos().Data)
+                {
+                    Console.WriteLine(product.ProductName + " / " + product.CategoryName);
+                }
+            }
+           
         }
     }
 
