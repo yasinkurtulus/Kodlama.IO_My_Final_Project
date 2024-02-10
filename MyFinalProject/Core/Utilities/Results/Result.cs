@@ -11,7 +11,7 @@ namespace Core.Utilities.Results
 
         public Result(bool succes)
         {
-
+            Succes = succes;
         }
         public Result(bool succes,string messages):this(succes) 
         {
