@@ -1,4 +1,5 @@
-﻿using Business.Concrate;
+﻿using Business.Abstract;
+using Business.Concrate;
 using Business.Constant;
 using DataAccess.Concrate.EntityFrameWork;
 using System;
@@ -14,8 +15,9 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             ProductTest();
-           // CategoryTest();
-           
+            // CategoryTest();
+         
+
 
         }
 
