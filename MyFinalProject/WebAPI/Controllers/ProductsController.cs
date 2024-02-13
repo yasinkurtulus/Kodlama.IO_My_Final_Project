@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class ProductsController : Controller
     {
         //Loosly Coupled
@@ -15,19 +17,43 @@ namespace WebAPI.Controllers
         {
             _productService = productservice;
         }
-        [Route("api/[controller]")]
        
-       /* public IActionResult Index()
+
+        /* public IActionResult Index()
+         {
+             return View();
+         }*/
+
+        [HttpGet("getall")]
+        public IActionResult GetAll()
         {
-            return View();
-        }*/
-       
-        [HttpGet]
-        public List<Product> Get()
+
+            var result = _productService.GetAll();
+            if (result.Succes == true)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+        [HttpGet("getbyid")]
+        public IActionResult Get(int id)
         {
-            IProductService proservice = new ProductManager(new EfProductDal());
-            return proservice.GetAll().Data;
-           
+            var result=_productService.GetById(id);
+            if (result.Succes == true)
+            {
+                return Ok(result.Data);
+            }
+            return BadRequest(result);
+        }
+        [HttpPost("add")]
+        public IActionResult Post(Product product)
+        {
+            var result = _productService.Add(product);
+            if (result.Succes)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
         }
     }
 }

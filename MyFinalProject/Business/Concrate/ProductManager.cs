@@ -35,7 +35,7 @@ namespace Business.Concrate
         {
             //Some business code blocks
             //Is he allows to use ? 
-            if (DateTime.Now.Hour==20)
+            if (DateTime.Now.Hour==1)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
